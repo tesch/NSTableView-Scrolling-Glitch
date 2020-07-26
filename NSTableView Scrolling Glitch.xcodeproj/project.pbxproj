@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA92868C24CD7B8900B1AC25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA92868B24CD7B8900B1AC25 /* AppDelegate.swift */; };
+		AA92868E24CD7B8A00B1AC25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA92868D24CD7B8A00B1AC25 /* ViewController.swift */; };
+		AA92869024CD7B8B00B1AC25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA92868F24CD7B8B00B1AC25 /* Assets.xcassets */; };
+		AA92869324CD7B8B00B1AC25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA92869124CD7B8B00B1AC25 /* Main.storyboard */; };
+		AA92869C24CD7D5500B1AC25 /* dinosaurs.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA92869B24CD7D5400B1AC25 /* dinosaurs.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA92868824CD7B8900B1AC25 /* NSTableView Scrolling Glitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSTableView Scrolling Glitch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA92868B24CD7B8900B1AC25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA92868D24CD7B8A00B1AC25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA92868F24CD7B8B00B1AC25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA92869224CD7B8B00B1AC25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA92869424CD7B8B00B1AC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA92869524CD7B8B00B1AC25 /* NSTableView_Scrolling_Glitch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSTableView_Scrolling_Glitch.entitlements; sourceTree = "<group>"; };
+		AA92869B24CD7D5400B1AC25 /* dinosaurs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dinosaurs.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA92868524CD7B8900B1AC25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA92867F24CD7B8900B1AC25 = {
+			isa = PBXGroup;
+			children = (
+				AA92868A24CD7B8900B1AC25 /* NSTableView Scrolling Glitch */,
+				AA92868924CD7B8900B1AC25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA92868924CD7B8900B1AC25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA92868824CD7B8900B1AC25 /* NSTableView Scrolling Glitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA92868A24CD7B8900B1AC25 /* NSTableView Scrolling Glitch */ = {
+			isa = PBXGroup;
+			children = (
+				AA92868B24CD7B8900B1AC25 /* AppDelegate.swift */,
+				AA92868D24CD7B8A00B1AC25 /* ViewController.swift */,
+				AA92869B24CD7D5400B1AC25 /* dinosaurs.txt */,
+				AA92868F24CD7B8B00B1AC25 /* Assets.xcassets */,
+				AA92869124CD7B8B00B1AC25 /* Main.storyboard */,
+				AA92869424CD7B8B00B1AC25 /* Info.plist */,
+				AA92869524CD7B8B00B1AC25 /* NSTableView_Scrolling_Glitch.entitlements */,
+			);
+			path = "NSTableView Scrolling Glitch";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA92868724CD7B8900B1AC25 /* NSTableView Scrolling Glitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA92869824CD7B8B00B1AC25 /* Build configuration list for PBXNativeTarget "NSTableView Scrolling Glitch" */;
+			buildPhases = (
+				AA92868424CD7B8900B1AC25 /* Sources */,
+				AA92868524CD7B8900B1AC25 /* Frameworks */,
+				AA92868624CD7B8900B1AC25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSTableView Scrolling Glitch";
+			productName = "NSTableView Scrolling Glitch";
+			productReference = AA92868824CD7B8900B1AC25 /* NSTableView Scrolling Glitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA92868024CD7B8900B1AC25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Marcel Tesch";
+				TargetAttributes = {
+					AA92868724CD7B8900B1AC25 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = AA92868324CD7B8900B1AC25 /* Build configuration list for PBXProject "NSTableView Scrolling Glitch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA92867F24CD7B8900B1AC25;
+			productRefGroup = AA92868924CD7B8900B1AC25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA92868724CD7B8900B1AC25 /* NSTableView Scrolling Glitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA92868624CD7B8900B1AC25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA92869024CD7B8B00B1AC25 /* Assets.xcassets in Resources */,
+				AA92869324CD7B8B00B1AC25 /* Main.storyboard in Resources */,
+				AA92869C24CD7D5500B1AC25 /* dinosaurs.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA92868424CD7B8900B1AC25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA92868E24CD7B8A00B1AC25 /* ViewController.swift in Sources */,
+				AA92868C24CD7B8900B1AC25 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA92869124CD7B8B00B1AC25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA92869224CD7B8B00B1AC25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA92869624CD7B8B00B1AC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA92869724CD7B8B00B1AC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AA92869924CD7B8B00B1AC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NSTableView Scrolling Glitch/NSTableView_Scrolling_Glitch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y9CGCD6R4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "NSTableView Scrolling Glitch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.marceltesch.NSTableView-Scrolling-Glitch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA92869A24CD7B8B00B1AC25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NSTableView Scrolling Glitch/NSTableView_Scrolling_Glitch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y9CGCD6R4V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "NSTableView Scrolling Glitch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.marceltesch.NSTableView-Scrolling-Glitch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA92868324CD7B8900B1AC25 /* Build configuration list for PBXProject "NSTableView Scrolling Glitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA92869624CD7B8B00B1AC25 /* Debug */,
+				AA92869724CD7B8B00B1AC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA92869824CD7B8B00B1AC25 /* Build configuration list for PBXNativeTarget "NSTableView Scrolling Glitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA92869924CD7B8B00B1AC25 /* Debug */,
+				AA92869A24CD7B8B00B1AC25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA92868024CD7B8900B1AC25 /* Project object */;
+}
