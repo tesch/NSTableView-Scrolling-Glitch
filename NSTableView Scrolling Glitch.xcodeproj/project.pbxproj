@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA83411224D4ABB700CB3579 /* ClipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83411124D4ABB700CB3579 /* ClipView.swift */; };
 		AA92868C24CD7B8900B1AC25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA92868B24CD7B8900B1AC25 /* AppDelegate.swift */; };
 		AA92868E24CD7B8A00B1AC25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA92868D24CD7B8A00B1AC25 /* ViewController.swift */; };
 		AA92869024CD7B8B00B1AC25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA92868F24CD7B8B00B1AC25 /* Assets.xcassets */; };
 		AA92869324CD7B8B00B1AC25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA92869124CD7B8B00B1AC25 /* Main.storyboard */; };
 		AA92869C24CD7D5500B1AC25 /* dinosaurs.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA92869B24CD7D5400B1AC25 /* dinosaurs.txt */; };
+		AAC57C4D24D4C1F900AB20DF /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC57C4C24D4C1F900AB20DF /* TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA83411124D4ABB700CB3579 /* ClipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipView.swift; sourceTree = "<group>"; };
 		AA92868824CD7B8900B1AC25 /* NSTableView Scrolling Glitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSTableView Scrolling Glitch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA92868B24CD7B8900B1AC25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA92868D24CD7B8A00B1AC25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,6 +26,7 @@
 		AA92869424CD7B8B00B1AC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA92869524CD7B8B00B1AC25 /* NSTableView_Scrolling_Glitch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSTableView_Scrolling_Glitch.entitlements; sourceTree = "<group>"; };
 		AA92869B24CD7D5400B1AC25 /* dinosaurs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dinosaurs.txt; sourceTree = "<group>"; };
+		AAC57C4C24D4C1F900AB20DF /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			children = (
 				AA92868B24CD7B8900B1AC25 /* AppDelegate.swift */,
 				AA92868D24CD7B8A00B1AC25 /* ViewController.swift */,
+				AAC57C4C24D4C1F900AB20DF /* TableView.swift */,
+				AA83411124D4ABB700CB3579 /* ClipView.swift */,
 				AA92869B24CD7D5400B1AC25 /* dinosaurs.txt */,
 				AA92868F24CD7B8B00B1AC25 /* Assets.xcassets */,
 				AA92869124CD7B8B00B1AC25 /* Main.storyboard */,
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA92868E24CD7B8A00B1AC25 /* ViewController.swift in Sources */,
+				AAC57C4D24D4C1F900AB20DF /* TableView.swift in Sources */,
 				AA92868C24CD7B8900B1AC25 /* AppDelegate.swift in Sources */,
+				AA83411224D4ABB700CB3579 /* ClipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

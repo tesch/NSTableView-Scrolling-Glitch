@@ -710,11 +710,11 @@
                         <subviews>
                             <scrollView autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qUH-1G-fs6">
                                 <rect key="frame" x="10" y="10" width="580" height="280"/>
-                                <clipView key="contentView" id="znR-GU-iZd">
+                                <clipView key="contentView" id="znR-GU-iZd" customClass="ClipView" customModule="NSTableView_Scrolling_Glitch" customModuleProvider="target">
                                     <rect key="frame" x="1" y="1" width="578" height="278"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" viewBased="YES" id="oGL-NJ-05F">
+                                        <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnSelection="YES" autosaveColumns="NO" rowSizeStyle="automatic" viewBased="YES" id="oGL-NJ-05F" customClass="TableView" customModule="NSTableView_Scrolling_Glitch" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="578" height="278"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <size key="intercellSpacing" width="3" height="2"/>
